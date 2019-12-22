@@ -1,0 +1,108 @@
+﻿<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta type="author" content="DEV PHP MYSQL">
+		<meta type="version" content="1.0">
+		<title>Fichier d'exercice TP CSS 06</title>
+		<style>
+			/* ne pas toucher à ces règles */
+			h1 {text-align:center;}
+			div {padding:20px;
+			     border:1px solid black;}
+			table {margin:10px auto; 
+			       text-align:center;
+				   border:1px solid black;}
+			.vide {background-color:lightgrey;}
+			/* saisir les nouvelles règles à partir d'ici */
+			
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Fichier d'exercice TP CSS 06
+			<span><br />Pseudo-classes structurelles</span>
+			</h1>
+		</header>
+		<section>
+			<p>Je suis un élément <code>p</code>.</p>
+		</section>
+		<section>
+			<p>Je suis un élément <code>p</code>. </p>
+			<div> je suis un <code>div</code> avec dedans un tableau.
+				<table>
+					<tr>
+						<th>Colonne 1</th>
+						<th>Colonne 2</th>
+						<th>Colonne 3</th>
+					</tr>
+					<tr>
+						<td>C1L1</td>
+						<td>C2L1</td>
+						<td>C3L1</td>
+					</tr>
+					<tr>
+						<td>C1L2</td>
+						<td>C2L2</td>
+						<td>C3L3</td>
+					</tr>
+					<tr>
+						<td>C1L3</td>
+						<td>C2L3</td>
+						<td>C3L3</td>
+					</tr>
+					<tr>
+						<td>C1L4</td>
+						<td>C2L4</td>
+						<td>C3L4</td>
+					</tr>
+					<tr>
+						<td>C1L5</td>
+						<td>C2L5</td>
+						<td>C3L5</td>
+					</tr>
+				</table>
+				<p>Unique élément <code>p</code> contenu dans un élément <code>div</code>
+				</p>
+			</div>
+			<div>Element <code>div</code>, contenant également un tableau. 
+				<table class="ventes">
+					<tr>
+						<th>Période</th>
+						<th>Trucs</th>
+						<th>Machins</th>
+					</tr>
+					<tr>
+						<th>J-F-M</th>
+						<td>70</td>
+						<td>50</td>
+					</tr>
+					<tr>
+						<th>A-M-J</th>
+						<td>30</td>
+						<td>40</td>
+					</tr>
+					<tr>
+						<th>J-A-S</th>
+						<td>20</td>
+						<td>50</td>
+					</tr>
+					<tr>
+						<td>O-N-D</td>
+						<td>40</td>
+						<td>50</td>
+					</tr>
+					<tr>
+						<th>Total</td>
+						<td>160</td>
+						<td>190</td>
+					</tr>
+				</table>
+			</div>
+			<div class="vide">Element <code>div</code> contenant deux éléments <code>p</code> vides. 
+				<p></p>
+				<p></p>
+			</div>
+		</section>
+	</body>
+</html>

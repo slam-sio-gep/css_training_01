@@ -1,0 +1,5 @@
+﻿/* Feuille de style styles01.css pour le TP CSS 91 */
+h1 {color:red;}       /* cette propriété sera outrepassée par celle de l'élément style */
+p {color:purple;}     /* cette propriété sera outrepassée pour le premier par celle de l'attribut style */
+ul {font-style: italic;}
+li {background-color: rgba(175,175,175,.6);}

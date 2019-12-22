@@ -1,0 +1,73 @@
+﻿<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta type="author" content="DEV PHP MYSQL">
+		<meta type="version" content="1.0">
+		<title>Fichier d'exercice TP CSS 05</title>
+		<style>
+			/* ne pas toucher à ces règles */
+			h1 {text-align:center;}
+			div {border:1px solid black;}
+			div * {margin-left:50px;}
+			table {text-align:center;
+				border:1px solid black;}
+			/* saisir les nouvelles règles à partir d'ici */
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Fichier d'exercice TP CSS 05
+			<span><br />Sélecteurs de pseudo-classes dynamiques</span>
+			</h1>
+		</header>
+		<section>
+			<p>Je suis un élément p racine. Allez-voir <a href='#cible'>là-bas</a> si j'y suis. </p>
+			<div>Je suis un élément div racine contenant un formulaire.
+				<form>
+					<fieldset>
+						<legend>Un formulaire...</legend>
+						<input type="checkbox" name="un" checked="checked">Ceci<br />
+						<input type="checkbox" name="deux">ou cela.<br />
+					</fieldset>
+				</form>
+			</div>
+		</section>
+		<section>
+			<p>Je suis un élément p racine. </p>
+			<div> je suis un div racine avec dedans un tableau.
+				<table id="cible">
+					<tr>
+						<th>Colonne 1</th>
+						<th>Colonne 2</th>
+						<th>Colonne 3</th>
+					</tr>
+					<tr>
+						<td>C1L1</td>
+						<td>C2L1</td>
+						<td>C3L1</td>
+					</tr>
+					<tr>
+						<td>C1L2</td>
+						<td>C2L2</td>
+						<td>C3L3</td>
+					</tr>
+					<tr>
+						<td>C1L3</td>
+						<td>C2L3</td>
+						<td>C3L3</td>
+					</tr>
+					<tr>
+						<td>C1L4</td>
+						<td>C2L4</td>
+						<td>C3L4</td>
+					</tr>
+					<tr>
+						<td>C1L5</td>
+						<td>C2L5</td>
+						<td>C3L5</td>
+					</tr>
+				</table>
+		</section>
+	</body>
+</html>
